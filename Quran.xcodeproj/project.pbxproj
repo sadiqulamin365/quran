@@ -16,6 +16,12 @@
 		CE3E54AC20DACA6A00F865DA /* QuranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E54AB20DACA6A00F865DA /* QuranTests.m */; };
 		CE3E54B720DACA6A00F865DA /* QuranUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3E54B620DACA6A00F865DA /* QuranUITests.m */; };
 		CE3E54C620DAE06C00F865DA /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3E54C520DAE06C00F865DA /* tabbar.png */; };
+		CE667C9B20DCA17D007F1413 /* First.m in Sources */ = {isa = PBXBuildFile; fileRef = CE667C9A20DCA17D007F1413 /* First.m */; };
+		CE667C9D20DCA194007F1413 /* First.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE667C9C20DCA194007F1413 /* First.xib */; };
+		CE667CA020DCA4A8007F1413 /* Second.m in Sources */ = {isa = PBXBuildFile; fileRef = CE667C9F20DCA4A8007F1413 /* Second.m */; };
+		CE667CA220DCA4C3007F1413 /* Second.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE667CA120DCA4C3007F1413 /* Second.xib */; };
+		CE667CA620DCAEF2007F1413 /* Third.m in Sources */ = {isa = PBXBuildFile; fileRef = CE667CA520DCAEF2007F1413 /* Third.m */; };
+		CE667CAA20DCAFE3007F1413 /* Third.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE667CA920DCAFE3007F1413 /* Third.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		CE3E54B620DACA6A00F865DA /* QuranUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuranUITests.m; sourceTree = "<group>"; };
 		CE3E54B820DACA6A00F865DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE3E54C520DAE06C00F865DA /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		CE667C9920DCA17D007F1413 /* First.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = First.h; sourceTree = "<group>"; };
+		CE667C9A20DCA17D007F1413 /* First.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First.m; sourceTree = "<group>"; };
+		CE667C9C20DCA194007F1413 /* First.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = First.xib; sourceTree = "<group>"; };
+		CE667C9E20DCA4A8007F1413 /* Second.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Second.h; sourceTree = "<group>"; };
+		CE667C9F20DCA4A8007F1413 /* Second.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Second.m; sourceTree = "<group>"; };
+		CE667CA120DCA4C3007F1413 /* Second.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Second.xib; sourceTree = "<group>"; };
+		CE667CA420DCAEF2007F1413 /* Third.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Third.h; sourceTree = "<group>"; };
+		CE667CA520DCAEF2007F1413 /* Third.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Third.m; sourceTree = "<group>"; };
+		CE667CA920DCAFE3007F1413 /* Third.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Third.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +95,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE165E0820DC175D009E535A /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				CE667C9920DCA17D007F1413 /* First.h */,
+				CE667C9A20DCA17D007F1413 /* First.m */,
+				CE667C9C20DCA194007F1413 /* First.xib */,
+				CE667C9E20DCA4A8007F1413 /* Second.h */,
+				CE667C9F20DCA4A8007F1413 /* Second.m */,
+				CE667CA120DCA4C3007F1413 /* Second.xib */,
+				CE667CA420DCAEF2007F1413 /* Third.h */,
+				CE667CA520DCAEF2007F1413 /* Third.m */,
+				CE667CA920DCAFE3007F1413 /* Third.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
 		CE3E548620DACA6700F865DA = {
 			isa = PBXGroup;
 			children = (
+				CE165E0820DC175D009E535A /* xib */,
 				CE3E54C420DAE04B00F865DA /* image */,
 				CE3E549120DACA6700F865DA /* Quran */,
 				CE3E54AA20DACA6A00F865DA /* QuranTests */,
@@ -246,8 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE667C9D20DCA194007F1413 /* First.xib in Resources */,
 				CE3E549F20DACA6900F865DA /* LaunchScreen.storyboard in Resources */,
+				CE667CA220DCA4C3007F1413 /* Second.xib in Resources */,
 				CE3E54C620DAE06C00F865DA /* tabbar.png in Resources */,
+				CE667CAA20DCAFE3007F1413 /* Third.xib in Resources */,
 				CE3E549C20DACA6900F865DA /* Assets.xcassets in Resources */,
 				CE3E549A20DACA6700F865DA /* Main.storyboard in Resources */,
 			);
@@ -275,7 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3E549720DACA6700F865DA /* ViewController.m in Sources */,
+				CE667CA020DCA4A8007F1413 /* Second.m in Sources */,
 				CE3E54A220DACA6A00F865DA /* main.m in Sources */,
+				CE667CA620DCAEF2007F1413 /* Third.m in Sources */,
+				CE667C9B20DCA17D007F1413 /* First.m in Sources */,
 				CE3E549420DACA6700F865DA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
