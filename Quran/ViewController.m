@@ -34,6 +34,11 @@
     [self performSelector:@selector(createUI) withObject:self afterDelay:0.2];
     arrayForView=[[NSMutableArray alloc]init];
     
+    
+    NSLocale *countryLocale = [NSLocale currentLocale];
+    NSString *countryCode = [countryLocale objectForKey:NSLocaleCountryCode];
+    NSString *country = [countryLocale displayNameForKey:NSLocaleCountryCode value:countryCode];
+    
 }
 -(void)createUI
 {
